@@ -1,5 +1,5 @@
 import React from 'react'
-//import { expense } from '../data'
+
 
 function Productdis({ expense, description, category, amount, date }) {
   return (

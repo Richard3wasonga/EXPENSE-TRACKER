@@ -1,0 +1,31 @@
+.formdis{
+    display: flex;
+    flex-direction: column;
+        
+}
+.formdiv{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 310px;
+    padding: 20px;
+    padding-top: 5px;
+    
+}
+.formdis p{
+    margin-top: -15px;
+}
+.formdis h2{
+    font-size: 30px;
+}
+.inputdis{
+    margin-bottom: 15px;
+    width: 300px;
+}
+.btndis{
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+
+}

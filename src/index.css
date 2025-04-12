@@ -29,3 +29,21 @@
     color: white;
 
 }
+.searchbar{
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.searchbtn{
+    position: absolute;
+    border: none;
+    left: 10px;
+    background: transparent;
+    font-size: 15px;
+
+}
+.searchbar::placeholder {
+    padding-left: 30px;
+}
+   

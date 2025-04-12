@@ -1,8 +1,8 @@
 import React from 'react'
 import { expense } from '../data'
-import SerachBar from './SerachBar'
 
-function Productdis({expense,description,category,amount,date}){
+function Productdis({expense,description,category,amount,date,search}){
+    
    return(
     <tr>
         <td>{expense}</td>
@@ -17,8 +17,7 @@ function Productdis({expense,description,category,amount,date}){
 function DisplayExpense() {
   return (
     <div className='tabledis'>
-        <SerachBar/>
-        <table>
+    <table>
         <thead>
             <tr>
                 <th>Expense</th>

@@ -1,12 +1,12 @@
 import React from 'react'
 import ExpenseForm from './ExpenseForm'
-import DisplayExpense from './DisplayExpense'
+import SearchExchange from './SearchExchange'
 
 function Main() {
   return (
     <div className='maincontent'>
         <ExpenseForm/>
-        <DisplayExpense/>
+        <SearchExchange/>
     </div>
   )
 }

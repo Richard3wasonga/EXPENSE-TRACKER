@@ -102,6 +102,41 @@ body{
 .tabledis tbody tr:nth-child(even) {
     background-color:#E0E0E0; 
 }
+@media (max-width: 768px){
+    *{
+        padding: 0;
+    }
+    body{
+        width: 100%;
+    }
+    .maincontent{
+        display: block;
+        gap: 0px;
+
+    }
+    .tabledis table {
+        width: 100px;
+        padding: 0;
+    }
+    .tabledis th,
+    .tabledis td{
+        padding: 6px;
+    }
+    .formdiv{
+        margin-bottom: 30px;
+    }
+    .searchbtn{
+        left: 15px;
+        bottom: -300px;
+    }
+    .headerdis h1{
+        margin-top: 10px;
+    }
+    .headerdis p{
+        font-size: 17px;
+    }
+
+}
   
  
   

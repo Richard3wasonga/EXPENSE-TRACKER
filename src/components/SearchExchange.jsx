@@ -8,7 +8,7 @@ function SearchExchange() {
     const [Search, setSearch] = useState("")
   return (
     <div>
-        <SerachBar search={Search}/>
+        <SerachBar search={Search} setSearch={setSearch}/>
         <DisplayExpense search={Search}/>
     </div>
   )

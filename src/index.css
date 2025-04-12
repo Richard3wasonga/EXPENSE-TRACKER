@@ -37,6 +37,7 @@ body{
     height: 25px;
     border-radius: 10px;
     border-width: 1px;
+    padding-left: 30px;
 
 }
 .searchbtn{
@@ -49,7 +50,7 @@ body{
 
 }
 .searchbar::placeholder {
-    padding-left: 30px;
+    padding-left: 1px;
 }
 .maincontent{
     display: flex;

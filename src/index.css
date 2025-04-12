@@ -31,14 +31,16 @@
 }
 .searchbar{
     position: relative;
-    height: 20px;
+    height: 25px;
     border-radius: 10px;
+    border-width: 1px;
 
 }
 .searchbtn{
     position: absolute;
     border: none;
-    left: 10px;
+    left: 380px;
+    top: 205px;
     background: transparent;
     font-size: 15px;
 
@@ -46,4 +48,48 @@
 .searchbar::placeholder {
     padding-left: 30px;
 }
-   
+.maincontent{
+    display: flex;
+    gap: 20px;
+}
+.searchbar{
+    margin-bottom: 10px;
+}
+.tabledis table {
+    border-collapse: collapse;
+    width: 1530px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+  
+.tabledis th,
+.tabledis td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    
+    
+}
+.tabledis th{
+    background: black;
+    color: white;
+}
+.headerdis{
+    margin-bottom: 40px;
+}
+.headerdis h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.tabledis tbody tr:nth-child(odd) {
+    background-color: #FAF9F6;
+}
+  
+.tabledis tbody tr:nth-child(even) {
+    background-color:#E0E0E0; 
+}
+  
+ 
+  

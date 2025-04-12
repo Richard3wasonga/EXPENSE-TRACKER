@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from './components/Header'
-import SerachBar from './components/SerachBar'
+import Main from './components/Main'
 
 
 function App() {
   return (
     <div>
       <Header/>
-      <SerachBar/>
+      <Main/>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     width: 100%;
 }
@@ -19,6 +20,7 @@ body{
 }
 .formdis h2{
     font-size: 30px;
+    font-family: "Roboto", sans-serif;
 }
 .inputdis{
     margin-bottom: 15px;
@@ -30,6 +32,8 @@ body{
     border-radius: 10px;
     background: black;
     color: white;
+    font-size: 25px;
+    font-weight: 550;
 
 }
 .searchbar{
@@ -44,7 +48,7 @@ body{
     position: absolute;
     border: none;
     left: 380px;
-    top: 205px;
+    top: 220px;
     background: transparent;
     font-size: 15px;
 
@@ -83,9 +87,13 @@ body{
 .headerdis{
     margin-bottom: 40px;
 }
+.headerdis p{
+    font-size: 19px;
+}
 .headerdis h1{
     font-size: 60px;
     margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
 }
 .tabledis tbody tr:nth-child(odd) {
     background-color: #FAF9F6;

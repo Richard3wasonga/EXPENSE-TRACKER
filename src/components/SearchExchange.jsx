@@ -5,7 +5,7 @@ import SerachBar from './SerachBar'
 
 
 function SearchExchange() {
-    const [Search, setSearch] = useState("row")
+    const [Search, setSearch] = useState("")
   return (
     <div>
         <SerachBar search={Search}/>

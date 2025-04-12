@@ -4,12 +4,12 @@ import SerachBar from './SerachBar'
 
 
 
-function SearchExchange() {
+function SearchExchange({expense}) {
     const [Search, setSearch] = useState("")
   return (
     <div>
         <SerachBar search={Search} setSearch={setSearch}/>
-        <DisplayExpense search={Search}/>
+        <DisplayExpense search={Search} expense={expense}/>
     </div>
   )
 }

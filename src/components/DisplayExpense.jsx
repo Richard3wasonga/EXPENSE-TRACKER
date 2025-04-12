@@ -1,5 +1,5 @@
 import React from 'react'
-import { expense } from '../data'
+//import { expense } from '../data'
 
 function Productdis({ expense, description, category, amount, date }) {
   return (
@@ -13,7 +13,7 @@ function Productdis({ expense, description, category, amount, date }) {
   )
 }
 
-function DisplayExpense({ search }) {
+function DisplayExpense({ expense,search }) {
   const searchTerm = search?.toLowerCase() || ''
 
   const filteredExpenses = expense.filter((item) =>

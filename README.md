@@ -2,11 +2,7 @@
 
 This project is a simple Expense Tracker built with React. It allows users to add, display, and filter expense entries in a table format. The goal is to practice state management, component communication, and form handling using React Hooks.
 
-
-
 ---
-
-
 
 ## **Installation**
 
@@ -31,12 +27,7 @@ Access the live application here: [Live Link](https://expense-tracker-six-chi-98
    The app would be available at `http://localhost:3000` after
    starting the development server.
 
-
-
 ---
-
-
-
 
 ## **How the Application works
 
@@ -138,10 +129,7 @@ export default ExpenseForm
 
 ```
 
-
 ---
-
-
 
 ### **DisplayExpense.jsx**
 
@@ -218,10 +206,7 @@ export default DisplayExpense
 
 ```
 
-
 ---
-
-
 
 ## **Project Structure**
 
@@ -259,11 +244,7 @@ export default Main
 
 ```
 
-
-
 ---
-
-
 
 ## **Features Overview**
 
@@ -273,11 +254,7 @@ export default Main
 - Auto-clear form input after submission
 - Responsive ul elements
 
-
-
 ---
-
-
 
 ## **Technologies Used**
 
@@ -287,11 +264,7 @@ export default Main
 
 - HTML & CSS
 
-
-
 ---
-
-
 
 ## **Future Improvements**
 
@@ -299,9 +272,7 @@ export default Main
   data.
 - Add input validation (e.g valid dates,valid amount)
 
-
 ---
-
 
 ## **Authors**
 - Richard Wasonga - [GitHub Profile](https://github.com/Richard3wasonga)

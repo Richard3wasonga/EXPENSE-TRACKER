@@ -19,6 +19,7 @@ function DisplayExpense({ expense,search }) {
   const filteredExpenses = expense.filter((item) =>
     item.expense.toLowerCase().includes(searchTerm) || searchTerm === ''
   )
+  .sort((a, b) => a.expense.localeCompare(b.expense))
 
   return (
     <div className='tabledis'>

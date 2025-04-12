@@ -251,8 +251,9 @@ export default Main
 - Add new expense via a form.
 - Display expenses in a table.
 - Filter expenses by name using a search field.
-- Auto-clear form input after submission
-- Responsive ul elements
+- Auto-clear form input after submission.
+- Responsive ul elements.
+- Items automatically arranged alphabetically.
 
 ---
 

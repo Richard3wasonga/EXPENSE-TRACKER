@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .formdis{
     display: flex;
     flex-direction: column;

@@ -141,6 +141,8 @@ Features:
 
 - Accepts `search` prop to filter expenses by thier name.
 
+- Arranges the filtered data in alphabetic order.
+
 - Display a message when no expenses match the search criteria.
 
 ```jsx
@@ -269,7 +271,7 @@ export default Main
 
 ## **Future Improvements**
 
-- I ntegrate with backend APIs of local storage for persistent 
+- Integrate with backend APIs of local storage for persistent 
   data.
 - Add input validation (e.g valid dates,valid amount)
 

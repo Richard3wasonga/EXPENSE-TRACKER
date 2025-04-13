@@ -253,7 +253,7 @@ export default Main
 - Filter expenses by name using a search field.
 - Auto-clear form input after submission.
 - Responsive ul elements.
-- Items automatically arranged alphabetically.
+- Expenses are automatically arranged alphabetically.
 
 ---
 

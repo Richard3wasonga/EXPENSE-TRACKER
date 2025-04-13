@@ -29,7 +29,7 @@ Access the live application here: [Live Link](https://expense-tracker-six-chi-98
 
 ---
 
-## **How the Application works
+## **How the Application works**
 
 ### **ExpenseForm.jsx**
 
